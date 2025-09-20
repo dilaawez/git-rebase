@@ -1,1 +1,20 @@
-Addition in python = print (1+2);
+Addition in...
+    python = 
+        def main():
+        a = 10
+        b = 3
+
+        # Addition
+        sum = a + b
+        print("a + b = " + str(sum))
+    
+    Java
+        public class Main {
+        public static void main(String[] args) {
+        int a = 10, b = 3;
+
+        // Addition
+        int sum = a + b;
+        System.out.println("a + b = " + sum);
+            }
+        }
