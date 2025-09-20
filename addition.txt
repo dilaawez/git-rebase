@@ -18,4 +18,14 @@ Addition in...
         System.out.println("a + b = " + sum);
             }
         }
+    C++
+using namespace std;
 
+int main()
+{
+    int a = 10, b = 3;
+
+    // Addition
+    int sum = a + b;
+    cout << "a + b = " << sum << endl;
+}
