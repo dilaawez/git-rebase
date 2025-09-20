@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Addition in...
     python = 
         def main():
@@ -18,3 +19,6 @@ Addition in...
         System.out.println("a + b = " + sum);
             }
         }
+=======
+Addition in python = print (1+2);
+>>>>>>> 61f61a2 (added python code for addition.)
