@@ -14,3 +14,15 @@ Java
         System.out.println("Result: " + result); // Output: 6
 		}
 	}
+
+C
+	#include <stdio.h>
+
+	int main() {
+		int a = 10;
+		int b = 4;
+		int result = a - b;
+		printf("Result: %d\n", result);  // Output: 6
+	return 0;
+	}
+
