@@ -6,11 +6,22 @@ Python
 
 Java
 	public class MultiplicationExample {
-	public static void main(String[] args) {
-        int a = 5;
-        int b = 3;
-        int result = a * b;
-        System.out.println("Multiplication: " + result);
+		public static void main(String[] args) {
+			int a = 5;
+			int b = 3;
+			int result = a * b;
+			System.out.println(result);
 		}
+	}
+
+C
+	#include <stdio.h>
+
+	int main() {
+		int a = 5;
+		int b = 3;
+		int result = a * b;
+		printf(result);
+		return 0;
 	}
 
