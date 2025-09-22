@@ -3,3 +3,14 @@ Python
 	b = 3
 	result = a * b
 	print("Multiplication:", result)
+
+Java
+	public class MultiplicationExample {
+	public static void main(String[] args) {
+        int a = 5;
+        int b = 3;
+        int result = a * b;
+        System.out.println("Multiplication: " + result);
+		}
+	}
+
