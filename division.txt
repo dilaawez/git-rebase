@@ -1,0 +1,10 @@
+Python
+	# Normal division (always returns float)
+	print(7 / 2)    # 3.5
+
+	# Floor division (integer division, rounds down)
+	print(7 // 2)   # 3
+
+	# Modulus (remainder)
+	print(7 % 2)    # 1
+
