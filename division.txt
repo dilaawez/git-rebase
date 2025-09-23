@@ -23,3 +23,20 @@ Java
 	}
 }
 
+C
+	#include <stdio.h>
+
+	int main() {
+		int a = 7, b = 2;
+
+		// Integer division
+		int intResult = a / b;
+		printf("%d\n", intResult); // 3
+
+		// Floating-point division
+		double doubleResult = (double)a / b;
+		printf("%f\n", doubleResult); // 3.500000
+
+		 return 0;
+}
+
