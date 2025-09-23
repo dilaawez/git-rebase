@@ -8,3 +8,18 @@ Python
 	# Modulus (remainder)
 	print(7 % 2)    # 1
 
+Java
+	public class DivisionExample {
+		public static void main(String[] args) {
+			int a = 7, b = 2;
+
+			// Integer division (fractional part is discarded)
+			int intResult = a / b;
+			System.out.println(intResult); // 3
+
+			// Cast to double for floating-point division
+			double doubleResult = (double) a / b;
+			System.out.println(doubleResult); // 3.5
+	}
+}
+
