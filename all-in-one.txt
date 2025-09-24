@@ -28,3 +28,20 @@ java
 		}
 	}
 
+C
+	#include <stdio.h>
+
+	int main(void) {
+		int a = 10, b = 5, c = 8, d = 3, e = 4;
+
+		// Force floating-point division by casting
+		double result = (a + b) - ((double)(c * d) / e);
+		printf("Result (double division): %.2f\n", result);
+
+		// Integer arithmetic (truncating division)
+		int resultInt = (a + b) - (c * d / e);
+		printf("Result (integer division): %d\n", resultInt);
+
+		return 0;
+	}
+
