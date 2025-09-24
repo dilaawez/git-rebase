@@ -1,0 +1,15 @@
+python
+	# Python example: (a + b) - (c * d) / e
+	a = 10
+	b = 5
+	c = 8
+	d = 3
+	e = 4
+
+	result = (a + b) - (c * d) / e
+	print("Result (float division):", result)
+
+	# If you want integer (floor) division:
+	result_int = (a + b) - (c * d) // e
+	print("Result (integer // division):", result_int)
+
