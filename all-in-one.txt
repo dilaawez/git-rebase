@@ -13,3 +13,18 @@ python
 	result_int = (a + b) - (c * d) // e
 	print("Result (integer // division):", result_int)
 
+java
+	public class MathOps {
+		public static void main(String[] args) {
+			int a = 10, b = 5, c = 8, d = 3, e = 4;
+
+			// Use double cast to ensure floating-point division
+			double result = (a + b) - ((double)(c * d) / e);
+			System.out.println("Result (double division): " + result);
+
+			// If you keep integers, division truncates:
+			int resultInt = (a + b) - (c * d / e); // integer division
+		System.out.println("Result (integer division): " + resultInt);
+		}
+	}
+
